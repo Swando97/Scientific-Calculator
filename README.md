@@ -1,6 +1,7 @@
 # Cplusplus-Scientific-Basic-Calculator
 
 SUMMARY:
+
   I was very careful in the planning/creation of the hierarchy observed in the UML diagram above. I wanted to use the concept of Inheritance when creating the Basic Calculator and the Scientific Calculator classes, so I created a superclass named Calculator. I did this because a scientific calculator has the same functionalities as a basic calculator, with some extended “bonus” features. By using inheritance, a fundamental principal in OOP, we promote code Reusability, Extendibility, and Data Hiding. Reusability helps us eliminate duplicate code and speeds up the efficiency and performance of the program. Extendibility lets us extend on the superclass, which lets us derive new more customizable subclass (i.e. Basic and Scientific Calc.). Data hiding hides private data which can only be accessed through getter/setter methods. These are all considered good OOP programming practices.
 
   Next, I decided to make all the “calculation” functionalities (i.e. add, subtract, multiply, etc.) generic by using templates for two reasons. Recall, function
