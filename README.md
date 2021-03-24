@@ -1,4 +1,4 @@
-# Cplusplus-Scientific-Basic-Calculator
+# Scientific Calculator
 
 SUMMARY:
 
